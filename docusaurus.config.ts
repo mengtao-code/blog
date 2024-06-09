@@ -2,6 +2,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
+const baseUrl = process.env.BASE_URL??"/"
+
 const config: Config = {
   title: 'mengtao的博客',
   tagline: '写博客很酷',
@@ -11,7 +13,7 @@ const config: Config = {
   url: 'https://mengtao-code.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/blog/',
+  baseUrl: baseUrl,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -70,7 +72,7 @@ const config: Config = {
           position: 'left',
           label: '文档',
         },
-        {to: '/blog', label: '博客', position: 'left'},
+        {to: baseUrl+'blog', label: '博客', position: 'left'},
         {
           href: 'https://github.com/mengtao-code/blog',
           label: 'GitHub',
@@ -112,7 +114,7 @@ const config: Config = {
           items: [
             {
               label: 'Blog',
-              to: '/blog',
+              to: baseUrl + 'blog',
             },
             {
               label: 'GitHub',
