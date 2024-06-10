@@ -27,6 +27,7 @@
     "@docusaurus/module-type-aliases": "3.4.0",
     "@docusaurus/tsconfig": "3.4.0",
     "@docusaurus/types": "3.4.0",
+    "@mengtao-code/templatejs": "1.0.12-alpha.3",
     "typescript": "~5.2.2"
   },
   "browserslist": {
