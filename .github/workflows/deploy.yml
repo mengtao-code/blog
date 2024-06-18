@@ -9,6 +9,7 @@ on:
 
 env:
   BASE_URL: /blog/
+  URL: https://mengtao-code.github.io
 
 jobs:
   build:
