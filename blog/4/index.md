@@ -1,7 +1,6 @@
 ---
 title: 开发javascript项目
 date: 2024-06-09
-draft: true
 ---
 
 好久不开发javascript项目，一开始开发就要到处找怎么配置环境。这里做一下记录，不再到处找了。
@@ -74,5 +73,3 @@ tsconfig.json是typescript的配置文件，示例如下：
     }
 }
 ```
-
-## jest

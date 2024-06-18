@@ -1,5 +1,5 @@
-import { themes as prismThemes } from 'prism-react-renderer'
-import type { Config } from '@docusaurus/types'
+import {themes as prismThemes} from 'prism-react-renderer'
+import type {Config} from '@docusaurus/types'
 import type * as Preset from '@docusaurus/preset-classic'
 
 const baseUrl = process.env.BASE_URL ?? '/'
@@ -60,14 +60,14 @@ const config: Config = {
                 src: 'img/logo.svg'
             },
             items: [
+                {to: baseUrl + 'blog', label: '博客', position: 'left'},
                 {
                     type: 'docSidebar',
                     sidebarId: 'tutorialSidebar',
                     position: 'left',
                     label: '文档'
                 },
-                { to: baseUrl + 'blog', label: '博客', position: 'left' },
-                { to: baseUrl + 'mini-posts', label: '碎碎念', position: 'left' },
+                {to: baseUrl + 'mini-posts', label: '碎碎念', position: 'left'},
                 {
                     href: 'https://github.com/mengtao-code/blog',
                     label: 'GitHub',
